@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   
 
   s.name         = "AKDFoundation"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Foundation and CoreFoudation extensions"
 
   s.description  = <<-DESC
@@ -18,9 +18,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '6.0'
   s.osx.deployment_target = '10.8'
 
-  s.source       = { :git => "https://github.com/cocoa-factory/AKDFoundation.git", :commit => "a13bad0f3cbe91659407d0dff2819952d9233e68" }
+  s.source       = { :git => "https://github.com/cocoa-factory/AKDFoundation.git", :tag => "0.0.2" }
 
-  s.source_files = 'source'
+  s.source_files = 'source/*.{h,m,c}'
 
   s.frameworks = 'Foundation', 'Security', 'CoreFoundation'
 
